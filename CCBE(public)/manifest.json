@@ -1,0 +1,43 @@
+{
+	"name":"CCBE",
+	"version":"1.0.0",
+	"description":"So far only YouTube ad-block functionality.",
+	"manifest_version":3,
+	"author":"Conscience Constellator",
+	
+	"action":
+	{
+		"default_icon":"Color unary binary ternary.png",
+		"default_title":"CCBE"
+	},
+	"content_scripts":
+	[
+		{
+			"matches":["<all_urls>","*://*/*"],
+			"js":["ContNt_Script.js"],
+			"run_at":"document_idle",
+			"type":"module"
+		}/*,
+		{
+			//"matches":["https://www.youtube.com/*"],
+			//"js":["Auto_Skip.js"]
+		}/**/
+	],
+	"web_accessible_resources":
+	[
+		{
+			"resources":["Auto_Skip.js","Input.js"],
+			"matches":["*://www.youtube.com/*"]
+		}
+	],
+	"permissions":
+	[
+		"activeTab"
+	],
+	"host_permissions":
+	[
+		"http://*/*",
+		"https://*/*"
+	],
+	"incognito":"split"
+}
