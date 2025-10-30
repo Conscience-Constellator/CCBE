@@ -1,0 +1,8 @@
+{
+  "project_root": ".",
+  "modules": "CCBE(public)/manifest.json",
+  "entry_points": "",
+  "priority": "",
+  "repo_urls": "https://github.com/Conscience-Constellator/CCBE",
+  "notes": "No mains"
+}
