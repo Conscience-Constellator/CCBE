@@ -1,6 +1,5 @@
 I made an extension called #CCBE(Conscience Constellator's Browser Extension). It has many features I find useful. I made this vr for public distribution.
-So far the only feature in public 1 is, it blocks #YouTube ads(maybe more sites in future), & 
-features like, chrome storage, bookmark, & download, management, outside integration w/ #Constellatory, my web crawler, & other programs, & A custom icon that changes based on info like, whether page is bookmarked, 
+So far the only feature in public 1 is, it blocks #YouTube ads(maybe more sites in future), but private has features like, chrome storage, bookmark, & download, management, outside integration w/ #Constellatory, my web crawler, & other programs, & A custom icon that changes based on info like, whether page is bookmarked, 
 are planned features.
 
 In order to avoid YouTube's ad-block-block, it has to wait, 2 secs before skipping most ads, & 10 for those considered to be in the 1st ad session(delays are subject to change), 
